@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Learning to Code
 locale: en_US
-description: Describe your website here.
+description: Because no developer knows it all...
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -31,22 +31,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jason Cavett
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: #address
   disqus-shortname:
-  twitter: #username
+  twitter: TheRealJasCav
   facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
+  github: jasoncavett
+  stackexchange: http://stackoverflow.com/users/132528/jascav
   linkedin: #username
   instagram: #username
   flickr: #username
   tumblr: #username
   google:
-    plus: #username
+    plus: JasonCavett
     analytics:
     verify:
     ad-client:
-    ad-slot: 
+    ad-slot:
   bing-verify:
