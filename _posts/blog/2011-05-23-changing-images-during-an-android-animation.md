@@ -40,7 +40,7 @@ I next created my content view layout which looks like the following:
   android:layout_alignParentRight="true" android:layout_width="wrap_content"
   android:layout_height="wrap_content" android:background="@null" />
 </RelativeLayout>
-{% end highlight %}
+{% endhighlight %}
 
 Three things to point out.
 
@@ -81,7 +81,7 @@ In order for that part of the animation to work, we need two things. First, is d
     <item android:maxLevel="4" android:drawable="@drawable/dice_5" />
     <item android:maxLevel="5" android:drawable="@drawable/dice_6" />
 </level-list>
-{% end highlight %}
+{% endhighlight %}
 
 Of course, you will need all the various drawable images that are referenced within this item list.
 
