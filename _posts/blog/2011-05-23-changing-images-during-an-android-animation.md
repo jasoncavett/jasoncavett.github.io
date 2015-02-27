@@ -22,7 +22,7 @@ For this tutorial, I grabbed the ‘shake’ animation from [Android API demos](
 <set android:interpolator="@anim/cycle" android:shareinterpolator="true" xmlns:android="http://schemas.android.com/apk/res/android">
  <translate android:duration="2000" android:fromxdelta="-5" android:toxdelta="5">
 </translate></set>
-{% end highlight %}
+{% endhighlight %}
 
 I next created my content view layout which looks like the following:
 
