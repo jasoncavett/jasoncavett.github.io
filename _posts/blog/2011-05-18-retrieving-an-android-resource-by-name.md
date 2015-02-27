@@ -39,7 +39,7 @@ This naming will be important in a moment.
 
 The second thing I did was create a ThemeManager class which provides the access to my available themes, as well as provides access to my Drawable objects. Here is a bit of the class.
 
-{% highlight java &}
+{% highlight java %}
 public class ThemeManager {
 
   // Notice the match between my types and the names in res/drawable.
