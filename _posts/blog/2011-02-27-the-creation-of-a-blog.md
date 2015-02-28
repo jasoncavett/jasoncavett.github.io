@@ -8,6 +8,8 @@ excerpt: "I am beginning this blog because I love learning."
 tags: [blog, first-post, software]
 image:
   feature:
+  credit:
+  creditlink:
 share: true
 comments: true
 ---
