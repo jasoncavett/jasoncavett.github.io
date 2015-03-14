@@ -9,7 +9,7 @@ tags: [.net, code-first, entity-framework, postgresql]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 {:.center}
 ![Postgresql Logo]({{ site.url }}/images/postgresql-logo.png)

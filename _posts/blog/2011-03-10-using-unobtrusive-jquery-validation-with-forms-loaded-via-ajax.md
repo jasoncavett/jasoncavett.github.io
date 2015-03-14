@@ -9,7 +9,7 @@ tags: [asp.net-mvc-3, jquery]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I wanted to share this quick, but simple, tip on how to use unobtrusive jQuery validation with ASP.NET MVC 3 and forms loaded via AJAX. It’s easy to do, but it’s not entirely intuitive without looking into jquery.validation.js.
 

@@ -9,7 +9,7 @@ tags: [arduino, graduate-school, real-time-systems]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 While I have no illusions of grandeur with respect to how many people are (or are not) following this blog, I must apologize for the severe lack of updates to the few of you who do track its posts.
 

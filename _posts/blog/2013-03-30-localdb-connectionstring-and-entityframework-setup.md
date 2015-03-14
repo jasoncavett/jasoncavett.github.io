@@ -9,7 +9,7 @@ tags: [entity-framework, sql]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 The world of SQL Server can be fairly confusing to someone who is new to it. Heck, it can be confusing to someone who knows it really, really well.
 

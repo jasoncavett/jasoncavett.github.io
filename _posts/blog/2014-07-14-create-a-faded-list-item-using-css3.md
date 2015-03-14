@@ -9,7 +9,7 @@ tags: [ccss, jquery]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I know there are about 1000 tutorials on various styles that you can give your lists using CSS3 on the web…but I still wanted to add my own voice to the mix.
 

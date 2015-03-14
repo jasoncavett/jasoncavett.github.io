@@ -9,7 +9,7 @@ tags: [google]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 This post has absolutely nothing to do with programming, and everything to do with managing your contacts via Google Contacts.
 

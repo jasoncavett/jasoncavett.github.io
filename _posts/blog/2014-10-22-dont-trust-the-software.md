@@ -9,7 +9,7 @@ tags: [software, microsoft]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I recently made the mistake of trusting software.
 

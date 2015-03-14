@@ -9,7 +9,7 @@ tags: [asp.net-mvc-3, javascript, razor]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 Here’s a quick little tip. If you are using the ASP.NET Url.Action Helper, but trying to pass a JavaScript variable into it, you need to do a little bit of magic in order to get it to work.
 

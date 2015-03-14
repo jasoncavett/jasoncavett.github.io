@@ -9,7 +9,7 @@ tags: [arduino, real-time-systems]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 As I discussed in a [previous blog post](http://www.jasoncavett.com/2011/03/arduino-uno-microcontroller-has-arrived.html), I am currently enrolled in a real-time systems course as my final course before I earn my MS in Software Engineering. As part of the course, we are to develop a real-time systems project. In particular, we are to develop the beginnings of an artificial pancreas which will be used to manage insulin levels for individuals with diabetes. What’s interesting about this project is that it is one that is being worked on in industry, although, as it can be imagined, a real version of this device is going to be far more complicated and have much more stringent requirements than the one I am developing for class.
 

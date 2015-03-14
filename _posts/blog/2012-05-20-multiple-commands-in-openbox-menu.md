@@ -9,7 +9,7 @@ tags: [linux, openbox]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 For those of you who love using a very light window manager (either because you are running on very old hardware, or, like me, you just like things lean and mean), [Openbox](http://openbox.org/) is an excellent choice. It has a ton of configuration options and is extremely lightweight.
 

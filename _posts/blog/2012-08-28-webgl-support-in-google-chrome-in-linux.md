@@ -9,7 +9,7 @@ tags: [chrome, google, linux, webgl]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 As any good computer nerd knows, the browser of choice these days is Google Chrome. It’s fast. Chrome supports a ton of the latest not-yet-standard standards (AKA HTML5 and CSS3). It has an [excellent extension environment](https://chrome.google.com/webstore/category/home). And, it has a great set of built-in tools to support development. And, last of all, it supports WebGL…with a caveat or two.
 

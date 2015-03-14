@@ -9,7 +9,7 @@ tags: [arduino, graduate-school, real-time-systems]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I recently began my final course before I have earned my Masters of Software Engineering. Typically, I work directly with software. Hardware is a bit of mystery to me. Although I have taken my share of computer engineering, assembly, computer architecture, and even the rare introductory electrical engineering courses, I did so only so I could understand enough to move onto the software. In fact, one particular reason I leaned towards software as a young teen is because, even when I broke it, it could easily be fixed at very minimal cost. This kept mom and dad happy.
 

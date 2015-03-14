@@ -9,7 +9,7 @@ tags: [android, animation, java]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I was recently working on a portion of my application where I wanted to animate a die rolling across the screen. As part of this animation, there were two aspects. First, I had to build the animation so that the dice would move across the screen. The second part of the animation required that the die flip and tumble.
 

@@ -9,7 +9,7 @@ tags: [.net, asp.net-mvc-4, nuget]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I love [NuGet](https://nuget.codeplex.com/). In fact, it wasn’t until NuGet existed that I actually really started to enjoy using Visual Studio. Yeah, in the past, I would use Visual Studio because it was still the best thing out there for my IDE, but NuGet opened up a whole new world of possibilities and made it significantly easier to manage all those pesky libraries that come with any good-sized development project (particularly where there are dependencies). (Don’t worry *nix enthusiasts. I love Gentoo and Mint Linux, so I am well aware that Microsoft was not the first to come up with the package management system. However, what they and the community has developed is done very well.)
 

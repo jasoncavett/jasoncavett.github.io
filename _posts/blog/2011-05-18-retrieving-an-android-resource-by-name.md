@@ -9,7 +9,7 @@ tags: [android, java]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 Per my last blog post, now that I am finished with graduate school, I can devote time to pet projects that I have been meaning to work on for some time now. The project that has been first and foremost on my plate is an Android application.
 

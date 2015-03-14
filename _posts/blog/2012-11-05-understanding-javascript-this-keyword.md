@@ -9,7 +9,7 @@ tags: [javascript]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I know there are a number of blogs and articles on `this` particular topic (no pun intended) and it only takes a quick Google search to find the information on how JavaScript’s `this` keyword actually works.
 

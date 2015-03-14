@@ -9,7 +9,7 @@ tags: [css, jquery]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 [Nivo Slider](http://nivo.dev7studios.com/) brands itself “The World’s Most Awesome jQuery Image Slider” and, while I haven’t tried **all** the sliders out there, I certainly concede that it is very nice and well done. Following the instructions made it very easy to get it up and running (with a little bit of Googling to solve a stuttering error that I saw inside Google Chrome).
 

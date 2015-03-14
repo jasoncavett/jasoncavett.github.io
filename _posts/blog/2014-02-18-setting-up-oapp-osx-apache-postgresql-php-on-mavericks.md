@@ -9,7 +9,7 @@ tags: [apache, osx, php, postgresql]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 {:.center}
 ![PHP, Apache, and Postgresql]({{ site.url }}/images/php-apache-postgres.png)

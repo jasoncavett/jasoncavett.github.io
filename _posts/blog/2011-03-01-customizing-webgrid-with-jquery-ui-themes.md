@@ -9,7 +9,7 @@ tags: [asp.net-mvc-3, jquery-ui, webgrid]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 I recently began working with [ASP.NET MVC 3](http://www.asp.net/mvc/mvc3), and I have been very impressed with the changes and updates that have been made. Follow the link to read about the many changes – I won’t rehash all those here. Instead, I want to discuss one of the new Web Helpers that have been added to MVC – specifically the [WebGrid](http://msdn.microsoft.com/en-us/library/system.web.helpers.webgrid(v=vs.99).aspx) Web Helper.
 

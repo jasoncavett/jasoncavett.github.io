@@ -9,7 +9,7 @@ tags: [linux, openbox]
 image:
   feature:
 share: true
-comments: true
+comments: false
 ---
 While I love running a lightweight system, there are definitely some better UI “stuff” that Windows 7 has that my beloved Openbox setup does not – at least not out of the box. I was specifically looking for information on how to emulate Windows 7 [Aero Snap feature](http://windows.microsoft.com/en-us/windows7/products/features/snap) with the keyboard that automatically docks windows to the right and the left of my screen as I use this quite frequently when I’m developing. (Note: I didn’t worry about using the mouse to drag and drop snap windows as I really dislike lifting my hands up off the keyboard unless I absolutely have to. This also explains my love affair with VIM.)
 

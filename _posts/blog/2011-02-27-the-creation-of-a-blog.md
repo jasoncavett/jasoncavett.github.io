@@ -11,7 +11,7 @@ image:
   credit:
   creditlink:
 share: true
-comments: true
+comments: false
 ---
 I am beginning this blog because I continue to find myself learning more and more about a topic that I love and am passionate about – technology. More specifically, I am passionate about software development.
 
