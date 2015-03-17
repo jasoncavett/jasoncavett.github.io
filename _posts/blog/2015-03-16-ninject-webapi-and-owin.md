@@ -23,7 +23,7 @@ It turns out, that, because I am using the latest version of [Microsoft.Owin](ht
 
 Now, I realize the instructions on the Ninject website that I linked up above say to specifically install **Ninject.Web.Common.OwinHost** and **Ninject.Web.WebApi.OwinHost**. For some reason, I decided to look at the second, saw that Ninject.Web.Common.OwinHost was a dependency, and just decided to install that and allow everything else to fall out. In fact, when I ran into this problem, I mapped out the dependency tree. Here it is:
 
-```
+{% highlight text %}
 Ninject.Web.WebApi.OwinHost (3.2.4)
   Ninject.Web.WebApi (≥ 3.2.0.0 && < 3.3.0.0)
     Ninject (≥ 3.2.0.0 && < 3.3.0.0)
@@ -58,7 +58,7 @@ Ninject.Web.Common.OwinHost (3.2.3)
     Ninject (≥ 3.2.0.0 && < 3.3.0.0)
   Microsoft.Owin (≥ 2.0 && < 4.0)
     Owin (≥ 1.0)
-```
+{% endhighlight %}
 
 As you can see, everything looks good for any reference to Microsoft.Owin across the board. In fact, I am a bit stumped as to how I ran into this issue in the first place. (If I get Ninject.Web.WebApi.OwinHost version 3.2.3, a dependency exists that requires a version < 3 of Microsoft.Owin, but, that doesn't make sense based on the above dependency tree.) If anybody has any insight, would really appreciate further clarification in the comments below.
 
