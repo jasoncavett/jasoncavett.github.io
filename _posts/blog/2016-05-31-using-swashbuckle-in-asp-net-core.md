@@ -5,7 +5,7 @@ date: 2016-05-31
 modified:
 categories: blog
 excerpt:
-tags: [asp.net-core-1.0, asp.net, swashbuckle, swagger]
+tags: [asp-net-core, asp-net, swashbuckle, swagger]
 image:
   feature:
 share: true
@@ -29,7 +29,7 @@ First, you must add the package reference to `project.json`. (Don't get me start
 
 Once you have done this, crack open `Startup.cs` and add the following configuration to the `ConfigureServices()` method:
 
-{% highlight csharp %}
+~~~ csharp
 // Add Swagger documentation.
 services.AddSwaggerGen();
 services.ConfigureSwaggerDocument(options => {
@@ -43,28 +43,28 @@ services.ConfigureSwaggerDocument(options => {
 services.ConfigureSwaggerSchema(options => {
     options.DescribeAllEnumsAsStrings = true;
 });
-{% endhighlight %}
+~~~
 
 Of course, configure schema options and other items as you see fit.
 
 Then, also in `Startup.cs`, add these two lines to `Configure()`.
 
-{% highlight csharp %}
+~~~ csharp
 app.UseSwaggerGen();
 app.UseSwaggerUi();
-{% endhighlight %}
+~~~
 
 Go ahead and run your project! You should now be able to access your documentation at http://localhost:5000/swagger/ui/index.html. Of course, adjust the URL accordingly.
 
 As an addition, I wanted to hide two of my APIs as they are not properly wired up. Per this Github issue, Swashbuckle is built on Web API's built-in metadata layer. This is beautiful because you can then use the ApiExplorerSettingsAttribute to ignore endpoints, like this:
 
-{% highlight csharp %}
+~~~ csharp
 [ApiExplorerSettings(IgnoreApi=true)]
 public class MyController : Controller
 {
   // ...
 }
-{% endhighlight %}
+~~~
 
 Note that you can use these on an entire controller, or on individual endpoints.
 
