@@ -17,7 +17,7 @@ In the past, [Microsoft's ASP.NET Web API Help Pages](http://www.asp.net/web-api
 
 Recently, I have been working very heavily in [ASP.NET Core 1.0](https://dotnet.github.io/). While it is a fast-moving project, and things are changing almost daily, it is a lot of fun and it feels good to work with. (It may also have something to do with the lightweight and familiar tooling that I am using while developing on OSX. I love that!) Unfortunately, the Web API Help Pages have not been ported to support ASP.NET Core. So, I went in search of another alternative.
 
-Very quickly, I landed on [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) which adds [Swagger documentation](http://swagger.io/), and a UI to browse said documentation, to Web API projects. It supports the testing of API endpoints, the model is easier to understand, and [it looks great](http://petstore.swagger.io/)! Everything I could want.
+Very quickly, I landed on [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) which adds [Swagger documentation](http://swagger.io/), and a UI to browse said documentation. It supports the testing of API endpoints, the model is easier to understand, and [it looks great](http://petstore.swagger.io/)! Everything I could want.
 
 Of course, given that I'm working with ASP.NET Core, the documentation to specifically bring Swashbuckle into my project was a little lacking given the rapid changes happening to Core. So, I wanted to document what I found here. Please note that this is the way it is currently performed, and it may change again sometime in the future. Also note that I am doing this from Release Candidate 1 - I have not yet switched over to 2.
 
