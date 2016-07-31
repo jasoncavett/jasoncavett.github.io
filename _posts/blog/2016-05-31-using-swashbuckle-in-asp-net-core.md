@@ -4,7 +4,7 @@ title: "Using Swashbuckle in ASP.NET Core 1.0"
 date: 2016-05-31
 modified:
 categories: blog
-excerpt:
+excerpt: "Automatically generate documentation for your WebAPI projects."
 tags: [asp-net-core, asp-net, swashbuckle, swagger]
 image:
   feature:
