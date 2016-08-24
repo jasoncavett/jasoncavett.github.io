@@ -103,7 +103,7 @@ $ ./configure --with-pdo-pgsql=/path/to/your/PostgreSQL/installation
 $ make && sudo make install
 {% endhighlight %}
 
-If everything works correctly, pdo_pgsql.so should be placed in a directory like `/usr/lib/php/extensions/no-debug-non-zts-20060613/``. Now that you’ve done that, you have to update `php.ini` to point to the extension.
+If everything works correctly, pdo_pgsql.so should be placed in a directory like `/usr/lib/php/extensions/no-debug-non-zts-20060613/`. Now that you’ve done that, you have to update `php.ini` to point to the extension.
 
 {% highlight conf %}
 # /user/local/etc/php/5.5/php.ini
