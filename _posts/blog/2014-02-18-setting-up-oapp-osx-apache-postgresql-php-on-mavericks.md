@@ -18,10 +18,10 @@ I have long used Linux as my main development platform. And, of course, for anyt
 
 Unfortunately, as I searched across the internet, there were a number of different ways and methods of installing these components that I decided I would add my own voice for a setup that works for me.
 
-#Installation Setup
+# Installation Setup
 Before beginning the rest of the installation, you should first install [Homebrew](http://brew.sh/). The installation is straightforward so I will leave you to head to the Homebrew site and follow those steps there. The primary thing to remember about Homebrew and this point going forward is that Homebrew installs packages to their own directories and then symlinks those into the `/usr/local` directory. For this reason (and something I assume in this post), you should include `/usr/local` in your classpath via your bash_profile.
 
-#Installing PHP
+# Installing PHP
 As you may already know, PHP is already available on Mavericks. However this version is 5.4 and [PHP 5.5 is up to its 9th release](http://www.php.net/downloads.php#v5.5.9) with 5.6 in alpha. So, I decided I needed to be able to keep my system upgraded fairly easily.
 
 Because PHP isn’t available from the default Homebrew taps, you’ll have to tap [Jose Gonzalez’s Homebrew PHP tap](https://github.com/josegonzalez/homebrew-php). To do this, you will tap homebrew/dupes which provides formulas that are already part of the OSX installation but may contain upgrades and/or patches. Via the terminal, enter the following commands:
@@ -50,7 +50,7 @@ Once the process has completed, and assuming that /usr/local is in your PATH, yo
 $ php -v
 {% endhighlight %}
 
-#Installing Apache
+# Installing Apache
 In the case of Mavericks, I will be using the version of Apache that is installed with the operating system due to the fact that this is a development setup, and this (older) version of Apache will not be used in production.
 
 Because Apache is already installed, using it is as simple as running the command:
@@ -83,7 +83,7 @@ If you’d like, you can test to make sure that Apache recognizes the correct ve
 
 The page should show the correct version of PHP.
 
-#Installing PostgreSQL
+# Installing PostgreSQL
 There are number of ways in which you can install Postgres on OSX. However, the easiest way, by far, is to do it via the [Postgres.app](http://postgresapp.com/). It’s as simple to install as downloading the application and moving it into your application folder. I will leave it up to the reader to run and perform the setup of any databases that they wish to use on Postgres.
 
 However, there is one more major step that must be performed after installing Postgres.app – you have to install and enable the PDO_PGSQL driver. You may already have [PEAR installed](http://pear.php.net/manual/en/installation.getting.php). You can test this through the following command:
@@ -111,5 +111,5 @@ If everything works correctly, pdo_pgsql.so should be placed in a directory like
 extension=pdo_pgsql.so
 {% endhighlight %}
 
-#Conclusion
+# Conclusion
 At this point, you have now installed PHP (which can be kept updated through future Homebrew updates), you are using Apache (which is installed with OSX), and you are using PostgreSQL with the appropriate extensions. Hope this helps someone!
