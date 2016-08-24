@@ -61,7 +61,7 @@ $ sudo apachectl start
 
 You can visit [http://localhost](http://localhost/) in your browser to make sure it says, “It works!” If it does, Apache is running correctly. However, for setting up a PHP environment, you also want to enable PHP on Apache. This is done by updating your LoadModule call. You’ll have to comment out the old version and add a line for the new version. (Note, this is taken from the homebrew-php website.)
 
-{% highlight apache %}
+{% highlight conf %}
 # /etc/apache2/httpd.conf
 # $HOMEBREW_PREFIX is normally `/usr/local`
 # Note that you choose the correct path for your version.
@@ -105,7 +105,7 @@ $ make && sudo make install
 
 If everything works correctly, pdo_pgsql.so should be placed in a directory like `/usr/lib/php/extensions/no-debug-non-zts-20060613/``. Now that you’ve done that, you have to update `php.ini` to point to the extension.
 
-{% highlight apache %}
+{% highlight conf %}
 # /user/local/etc/php/5.5/php.ini
 # Replace the version with your correct version.
 extension=pdo_pgsql.so
